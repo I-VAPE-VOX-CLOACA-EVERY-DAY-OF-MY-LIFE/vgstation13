@@ -248,7 +248,11 @@
 */
 
 /mob/proc/MiddleShiftClickOn(var/atom/A)
-	pointed(A)
+	if(isitem(A) && is_holding_item(A))
+		var/obj/item/I = A
+		return I.showoff(src)
+	else
+		return pointed(A)
 
 /*
 	Shift click
