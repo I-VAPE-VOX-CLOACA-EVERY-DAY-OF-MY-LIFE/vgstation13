@@ -91,7 +91,7 @@
 	transfers_dna = 1
 
 /obj/effect/decal/cleanable/vomit/active
-	desc = "A small pool of vomit. Gosh, how unpleasant."
+	desc = "test"
 	mouse_opacity = 1
 	flags = OPENCONTAINER
 	var/dry_state = 40 //Decreases by 1. When it reaches 0, the vomit becomes dry
@@ -224,8 +224,8 @@
 	desc = "Looks unfinished."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "wizrune"
-	
-/obj/effect/decal/cleanable/smashed_butter 
+
+/obj/effect/decal/cleanable/smashed_butter
 	name = "smashed butter"
 	desc = "Looks like some one has butter fingers."
 	icon = 'icons/effects/tomatodecal.dmi'
